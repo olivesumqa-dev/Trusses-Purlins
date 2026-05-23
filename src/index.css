@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  /* Override default slate scale with a bright, crisp, professional oceanic & tech-slate palette */
+  --color-slate-50: #f8fafc;  /* Crispy white/light-gray */
+  --color-slate-100: #f1f5f9; /* Soft background fill */
+  --color-slate-150: #e2e8f0; /* Accent thin lines */
+  --color-slate-200: #e2e8f0; /* Perfect light borders */
+  --color-slate-250: #cbd5e1; /* Visible placeholder gray */
+  --color-slate-300: #cbd5e1; /* Subtle divider borders */
+  --color-slate-350: #94a3b8; /* Medium-soft metadata label */
+  --color-slate-400: #64748b; /* Standard gray body text */
+  --color-slate-500: #475569; /* Interactive state outline */
+  --color-slate-600: #334155; /* Secondary text / subheadings */
+  --color-slate-750: #1e293b; /* Primary dark text */
+  --color-slate-800: #0f172a; /* Deep slate font color */
+  --color-slate-850: #0b0f19; /* Strong container accent */
+  --color-slate-900: #0f172a; /* Premium dark background element */
+  --color-slate-950: #020617; /* Slate-tinted pure black for contrast */
+
+  /* Override blue (primary branding) with vibrant clean Sapphire / Royal Blue */
+  --color-blue-50: #eff6ff;
+  --color-blue-100: #dbeafe;
+  --color-blue-200: #bfdbfe;
+  --color-blue-300: #93c5fd;
+  --color-blue-400: #60a5fa;
+  --color-blue-500: #3b82f6;
+  --color-blue-600: #2563eb; /* Gorgeous bright active state highlight */
+  --color-blue-700: #1d4ed8;
+  --color-blue-950: #172554;
+
+  /* Override emerald/success indicator with a beautiful energetic emerald green */
+  --color-emerald-50: #ecfdf5;
+  --color-emerald-100: #d1fae5;
+  --color-emerald-200: #a7f3d0;
+  --color-emerald-300: #6ee7b7;
+  --color-emerald-400: #34d399;
+  --color-emerald-500: #10b981; /* High prominence success badges */
+  --color-emerald-600: #059669;
+  --color-emerald-700: #047857;
+  --color-emerald-950: #022c22;
+  
+  /* Additional semantic mappings to easily reference the exact palette hex codes */
+  --color-brand-clay: #2563eb;
+  --color-brand-stone: #f8fafc;
+  --color-brand-mist: #f1f5f9;
+  --color-brand-ash: #cbd5e1;
+  --color-brand-mint: #ecfdf5;
+}

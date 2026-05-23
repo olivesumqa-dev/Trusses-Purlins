@@ -1,0 +1,6 @@
+{
+  "name": "Roof Truss and Purlin Designer",
+  "description": "Professional engineering structural analysis and design tool for roof trusses and purlins based on NSCP and AISC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
